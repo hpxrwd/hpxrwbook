@@ -1,0 +1,5 @@
+[2015/03/12 17:51:20]	信息	GetLocalConfigXML: config file [BlackList_Bill.xml] Load error: 名稱的開頭使用無效的字元。
+ 
+	 
+[2015/03/12 17:51:20]	信息	CSiteList<ItemType, ContainerType>::Load() [C:\Program Files (x86)\ICBCEbankTools\ICBCAntiPhishing\Config\BlackList_Bill.xml] Load error: 名稱的開頭使用無效的字元。
+ 	 
