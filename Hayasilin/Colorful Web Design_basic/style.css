@@ -1,0 +1,115 @@
+.container {
+    width: 1300px;
+    margin: 0 auto 0 auto;
+}
+
+header {
+    background-color: #006699;
+    height: 300px;
+    color: #fff;
+}
+
+header h1 {
+    position: absolute;
+    margin: 50px 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    height: 40px;
+}
+
+nav li {
+    float: left;
+    width: 256px;
+    background-color: #7295A7;
+    margin: 5px 2.5px 5px 2.5px;
+    text-align: center;
+}
+
+nav li a {
+    display: block;
+    padding: 20px 0 20px 0;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: white;
+}
+
+nav li:first-child {
+    margin-left: 0;
+}
+
+nav li:last-child {
+    margin-right: 0;
+}
+
+.submenu {
+    clear: both;
+    background-color: #CBCDDB;
+    height: 50px;
+}
+
+.submenu a {
+    float: right;
+    padding: 15px 10px 0 0;
+    text-decoration: none;
+ 
+}
+
+aside {
+    float: left;
+    width: 350px;
+    margin: 10px 25px 0 25px;
+}
+
+.title {
+    color: #006699;
+}
+
+.buttom-line {
+    border-bottom: 3px solid #006699;
+}
+
+aside ul {
+    list-style-type: none;
+    margin-top: 10px;
+    padding: 0;
+}
+
+aside li a {
+    color: #006699;
+    text-decoration: none;
+}
+
+article{
+	float: left;
+	width: 470px;
+	margin: 10px 10px 0 10px;
+}
+
+.adv{
+	
+	width: 300px;
+	background-color: #CC6633;
+	margin: 0 auto 0 auto;
+	color: #fff;
+}
+
+.adv p{
+	text-align: center;
+	font-size: 1.2em;
+	padding: 50px 0 50px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
