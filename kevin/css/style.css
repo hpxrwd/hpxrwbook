@@ -92,3 +92,14 @@ footer {
 	float: left;
     padding: 0 15px 5px;
 }
+    
+body {
+	background-color: blue;
+}
+
+@media only screen and  (min-width: 6em) {
+	body { background-color: green; }
+	article { float: left; width:67%; margin-right: 0; }
+	aside { float: right; width: 21%; margin-left: 0; }
+	footer { clear: both; }
+}
