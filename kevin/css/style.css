@@ -71,7 +71,7 @@ li { margin-left: 20px; padding-left: 10px; }
 
 header, article, aside {
 	border: 2px dotted #111;
-	padding: 10px 1em; margin: 0 5% 20px;
+	padding: 10px 1em; margin: 0 5% 10px;
 }
 
 /*header {
@@ -80,11 +80,11 @@ header, article, aside {
 
 footer {
 	border-top: 1px solid #111;
-	padding: 0 1em; margin: 0 5% 20px;
+	padding: 0 1em; margin: 0 5% 10px;
 }
 
 .logo {
-	margin: 0 5% 20px;
+	margin: 0 5% 10px;
 	/*position: absolute; left: 40px; top: 400px; }*/
 }
 
@@ -97,9 +97,13 @@ body {
 	background-color: blue;
 }
 
-@media only screen and  (min-width: 6em) {
+@media only screen and  (min-width: 40em) {
 	body { background-color: green; }
-	article { float: left; width:67%; margin-right: 0; }
-	aside { float: right; width: 21%; margin-left: 0; }
+	article { float: left; width:60%; margin-right: 0; }
+	aside { float: right; width: 28%; margin-left: 0; }
 	footer { clear: both; }
 }
+#fullpage {
+				max-width: 63em;
+				margin: auto;
+			}
