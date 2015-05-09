@@ -1,175 +1,265 @@
 /* ----------------------------------------------------
  normalize
  ---------------------------------------------------- */
+
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
+
 html {
     font-family: sans-serif;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
 }
+
 body {
     margin: 0;
 }
-article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
     display: block;
 }
-audio, canvas, progress, video {
+
+audio,
+canvas,
+progress,
+video {
     display: inline-block;
     vertical-align: baseline;
 }
+
 audio:not([controls]) {
     display: none;
     height: 0;
 }
-[hidden], template {
+
+[hidden],
+template {
     display: none;
 }
+
 a {
     background: transparent;
     text-decoration: none;
 }
-a:active, a:hover {
+
+a:active,
+a:hover {
     outline: 0;
 }
+
 abbr[title] {
     border-bottom: 1px dotted;
 }
-b, strong {
+
+b,
+strong {
     font-weight: bold;
 }
+
 dfn {
     font-style: italic;
 }
+
 h1 {
     font-size: 2em;
     margin: 0.25em 0;
 }
+
 mark {
     background: #ff0;
     color: #000;
 }
+
 small {
     font-size: 80%;
 }
-sub, sup {
+
+sub,
+sup {
     font-size: 75%;
     line-height: 0;
     position: relative;
     vertical-align: baseline;
 }
+
 sup {
     top: -0.5em;
 }
+
 sub {
     bottom: -0.25em;
 }
+
 img {
     border: 0;
 }
+
 svg:not(:root) {
     overflow: hidden;
 }
+
 figure {
     margin: 1em 40px;
 }
+
 hr {
     -moz-box-sizing: content-box;
     box-sizing: content-box;
     height: 0;
 }
+
 pre {
     overflow: auto;
 }
-code, kbd, pre, samp {
+
+code,
+kbd,
+pre,
+samp {
     font-family: monospace, monospace;
     font-size: 1em;
 }
-button, input, optgroup, select, textarea {
+
+button,
+input,
+optgroup,
+select,
+textarea {
     color: inherit;
     font: inherit;
     margin: 0;
 }
+
 button {
     overflow: visible;
 }
-button, select {
+
+button,
+select {
     text-transform: none;
 }
-button, html input[type="button"], input[type="reset"], input[type="submit"] {
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
     -webkit-appearance: button;
     cursor: pointer;
 }
-button[disabled], html input[disabled] {
+
+button[disabled],
+html input[disabled] {
     cursor: default;
 }
-button::-moz-focus-inner, input::-moz-focus-inner {
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
     border: 0;
     padding: 0;
 }
+
 input {
     line-height: normal;
 }
-input[type="checkbox"], input[type="radio"] {
+
+input[type="checkbox"],
+input[type="radio"] {
     box-sizing: border-box;
     padding: 0;
 }
-input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button {
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
     height: auto;
 }
+
 input[type="search"] {
     -webkit-appearance: textfield;
     -moz-box-sizing: content-box;
     -webkit-box-sizing: content-box;
     box-sizing: content-box;
 }
-input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
     -webkit-appearance: none;
 }
+
 fieldset {
     border: 1px solid #c0c0c0;
     margin: 0 2px;
     padding: 0.35em 0.625em 0.75em;
 }
+
 legend {
     border: 0;
     padding: 0;
 }
+
 textarea {
     overflow: auto;
 }
+
 optgroup {
     font-weight: bold;
 }
+
 table {
     border-collapse: collapse;
     border-spacing: 0;
 }
-td, th {
+
+td,
+th {
     padding: 0;
 }
-ul, li, ol {
+
+ul,
+li,
+ol {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
-
 /* ----------------------------------------------------
  main
  ---------------------------------------------------- */
 
-@media only screen and (max-width: 405px) {
+@media only screen and (max-width: 460px) {
     .container {
-        width: 385px;
         margin: 0 auto 0 auto;
     }
     header {
-        background-color: #006699;
+        background: -webkit-linear-gradient(90deg, #B3FFAB 10%, #12FFF7 90%);
+        /* Chrome 10+, Saf5.1+ */
+        
+        background: -moz-linear-gradient(90deg, #B3FFAB 10%, #12FFF7 90%);
+        /* FF3.6+ */
+        
+        background: -ms-linear-gradient(90deg, #B3FFAB 10%, #12FFF7 90%);
+        /* IE10 */
+        
+        background: -o-linear-gradient(90deg, #B3FFAB 10%, #12FFF7 90%);
+        /* Opera 11.10+ */
+        
+        background: linear-gradient(90deg, #B3FFAB 10%, #12FFF7 90%);
+        /* W3C */
+        
         height: 300px;
-        width: 385px;
         color: #fff;
     }
     header h1 {
@@ -178,7 +268,6 @@ ul, li, ol {
     }
     aside {
         text-align: center;
-        width: 350px;
         margin: 10px 10px 0 10px;
     }
     .title {
@@ -198,8 +287,6 @@ ul, li, ol {
     }
     article {
         text-align: center;
-        float: left;
-        width: 350px;
         margin: 10px 10px 40px 10px;
     }
     nav ul {
@@ -208,7 +295,6 @@ ul, li, ol {
         margin: 0;
     }
     nav li {
-        width: 24em;
         background-color: #7295A7;
         text-align: center;
         margin: 5px 0 5px 0;
@@ -219,13 +305,105 @@ ul, li, ol {
     }
 }
 
-@media only screen and (min-width: 405px) {
+@media only screen and (min-width: 460px) {
+    .container {
+        margin: 0 auto 0 auto;
+    }
+    header {
+        background: -webkit-linear-gradient(90deg, #ddd6f3 10%, #faaca8 90%);
+        /* Chrome 10+, Saf5.1+ */
+        
+        background: -moz-linear-gradient(90deg, #ddd6f3 10%, #faaca8 90%);
+        /* FF3.6+ */
+        
+        background: -ms-linear-gradient(90deg, #ddd6f3 10%, #faaca8 90%);
+        /* IE10 */
+        
+        background: -o-linear-gradient(90deg, #ddd6f3 10%, #faaca8 90%);
+        /* Opera 11.10+ */
+        
+        background: linear-gradient(90deg, #ddd6f3 10%, #faaca8 90%);
+        /* W3C */
+        
+        height: 300px;
+        color: #fff;
+    }
+    header h1 {
+        position: absolute;
+        margin: 10px 10px;
+    }
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        height: 30px;
+    }
+    nav li {
+        float: left;
+        width: 20%;
+        background-color: #7295A7;
+        margin: 0;
+        text-align: center;
+    }
+    nav li a {
+        display: block;
+        padding: 20px 0 20px 0;
+        text-decoration: none;
+        font-size: 1.2em;
+        color: white;
+    }
+    nav li:first-child {
+        margin-left: 0;
+    }
+    nav li:last-child {
+        margin-right: 0;
+    }
+    .submenu {
+        clear: both;
+        background-color: #CBCDDB;
+        height: 50px;
+    }
+    .submenu a {
+        float: right;
+        padding: 15px 10px 0 0;
+        text-decoration: none;
+    }
+    aside {
+        float: left;
+        width: 30%;
+        margin: 10px 15px 10px 10px;
+    }
+    .title {
+        color: #006699;
+    }
+    .buttom-line {
+        border-bottom: 3px solid #006699;
+    }
+    aside ul {
+        list-style-type: none;
+        margin-top: 10px;
+        padding: 0;
+    }
+    aside li a {
+        color: #006699;
+        text-decoration: none;
+    }
+    article {
+        float: left;
+        width: 62%;
+        margin: 10px 5px 0 5px;
+    }
+}
+
+@media only screen and (min-width: 770px) {
     .container {
         width: 1300px;
         margin: 0 auto 0 auto;
     }
     header {
-        background-color: #006699;
+        opacity: 1;
+        background-image: -webkit-linear-gradient(left, rgb(95, 44, 130), rgb(73, 160, 157));
+        background-color: rgb(255, 255, 255);
         height: 300px;
         color: #fff;
     }
