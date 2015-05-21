@@ -74,6 +74,8 @@ header, article, aside {
 	padding: 10px 1em; margin: 0 5% 10px;
 }
 
+header { background-image: url(../img/white.jpg); background-position: center top; }
+
 /*header {
 	margin-top: 20px;
 }*/
@@ -88,10 +90,12 @@ footer {
 	/*position: absolute; left: 40px; top: 400px; }*/
 }
 
-.content {
-	float: left;
-    padding: 0 15px 5px;
-}
+/*@media only screen and (max-width: 40em) {
+.content { float: right; }
+}*/
+
+.content { float: right; padding: 0 15px 5px; }
+article img { max-width: 100%; }
     
 body {
 	background-color: blue;
