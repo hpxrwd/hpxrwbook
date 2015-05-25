@@ -1,0 +1,359 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Liquidapsive (Liqui-dap-sive)</title>
+<link href="css/main.css" rel="stylesheet" type="text/css" >
+<script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-2550540-13']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+</head>
+<body class="adaptive">
+	<div id="page_wrapper">
+		<header>
+			<div id="header_inner">
+				<h1 id="header_adaptive">Adaptive 自適應</h1>
+				<h1 id="header_liquid">Liquid 流動式</h1>
+				<h1 id="header_responsive">Responsive 響應式</h1>
+				<h1 id="header_static">Static 固定式</h1>
+
+				<select>
+					<option value="adaptive">Adaptive 自適應</option>
+					<option value="liquid">Liquid 流動式</option>
+					<option value="responsive" selected="selected">Responsive 響應式</option>
+					<option value="static">Static 固定式</option>
+				</select>
+			</div>
+		</header>
+
+		<div id="content_wrapper">
+			<menu>
+				<div id="menu_inner">
+					<ul class="menu_1">
+						<li class="menu_1">
+							<a href="#" class="menu_1" title="Dummy placeholder link. This doesn't go anywhere.">選單 1</a>
+							<ul class="menu_2">
+								<li class="menu_2">
+									<a href="#" class="menu_2" title="Dummy placeholder link. This doesn't go anywhere.">選單 1 a</a>
+								</li>
+								<li class="menu_2">
+									<a href="#" class="menu_2" title="Dummy placeholder link. This doesn't go anywhere.">選單 1 b</a>
+								</li>
+								<li class="menu_2">
+									<a href="#" class="menu_2" title="Dummy placeholder link. This doesn't go anywhere.">選單 1 c</a>
+								</li>
+							</ul>
+						</li>
+						<li class="menu_1">
+							<a href="#" class="menu_1" title="Dummy placeholder link. This doesn't go anywhere.">選單 2</a>
+							<ul class="menu_2">
+								<li class="menu_2">
+									<a href="#" class="menu_2" title="Dummy placeholder link. This doesn't go anywhere.">選單 2 a</a>
+								</li>
+								<li class="menu_2">
+									<a href="#" class="menu_2" title="Dummy placeholder link. This doesn't go anywhere.">選單 2 b</a>
+								</li>
+								<li class="menu_2">
+									<a href="#" class="menu_2" title="Dummy placeholder link. This doesn't go anywhere.">選單 2 c</a>
+								</li>
+							</ul>
+						</li>
+						<li class="menu_1">
+							<a href="#" class="menu_1" title="Dummy placeholder link. This doesn't go anywhere.">選單 3</a>
+							<ul class="menu_2">
+								<li class="menu_2">
+									<a href="#" class="menu_2" title="Dummy placeholder link. This doesn't go anywhere.">選單 3 a</a>
+								</li>
+								<li class="menu_2">
+									<a href="#" class="menu_2" title="Dummy placeholder link. This doesn't go anywhere.">選單 3 b</a>
+								</li>
+								<li class="menu_2">
+									<a href="#" class="menu_2" title="Dummy placeholder link. This doesn't go anywhere.">選單 3 c</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</menu>
+
+			<div id="article_aside_wrapper">
+				<article>
+					<div id="article_inner">
+						<div id="intro">
+							<h1>How To Use 如何使用</h1>
+
+							<p>
+								Ever wondered what the difference between Adaptive, Responsive, Static and Liquid sites is? Had someone try and explain it only to be left more confused?<br>
+								有沒有想過Adaptive，Responsive，Static和Liquid 網站之間的區別是什麼？曾有人試圖解釋只留給更糊塗？
+							</p>
+
+							<p>
+								Pick a flavor from the drop down on the top of the page then drag your window narrower and wider, taller and shorter. It will make much more sense when you see for yourself how the approach works.<br>
+								挑從頁面頂部的下拉香味然後拖動窗口較窄和較寬的，更高和更短。這將使更多的意義，當你為自己看到的方式工作。
+							</p>
+						</div>
+
+						<div id="overview">
+							<img src="images/layout_1.gif" alt="Single Column Layout" id="layout_1" />
+							<img src="images/layout_2.gif" alt="Two Column Layout" id="layout_2" />
+							<img src="images/layout_3.gif" alt="Three Column Layout" id="layout_3" />
+
+							<h1 class="overview_adaptive">Adaptive 自適應</h1>
+
+							<p class="overview_adaptive">
+								Adaptive is characterized by having defined layouts for different resolutions. Within each layout, resizing the window does not change the layout.<br>
+								自適應的特徵在於具有定義佈局不同的分辨率。在每個佈局，調整窗口大小不改變佈局。
+							</p>
+
+							<p class="overview_adaptive">
+								You can think of Adaptive as a series of <a href="#" class="mode" rel="static" title="Change to Static">Static</a> layouts.<br>
+								你可以認為自適應一系列<a href="#" class="mode" rel="static" title="Change to Static">固定式</a>佈局。
+							</p>
+
+							<h1 class="overview_liquid">Liquid 流動式</h1>
+
+							<p class="overview_liquid">
+								Liquid (also called "Fluid") is characterized by scaling the width of parts of the design relative to the window. It tends to fail when the window is much smaller or much larger than it was originally designed for.<br>
+								流動式（也稱為“流體”）的特徵在於通過縮放相對於窗口的設計的部分的寬度。它往往失敗，當窗口要小得多或遠大於它最初被設計為。
+							</p>
+
+							<h1 class="overview_responsive">Responsive 響應式</h1>
+
+							<p class="overview_responsive">
+								Responsive is characterized by having defined layouts for different resolutions. Within each layout, the design is liquid and resizes the width of elements relative to the changing window size.<br>
+								響應式的特徵是具有所定義的佈局為不同的分辨率。在每個佈局中，設計是流動的並調整其大小相對於變化的窗口大小的元素的寬度。
+							</p>
+
+							<p class="overview_responsive">
+								You can think of Responsive as a series of <a href="#" class="mode" rel="liquid" title="Change to Liquid">Liquid</a> layouts.<br>
+								你能想到的響應作為一個系列<a href="#" class="mode" rel="liquid" title="Change to Liquid">流動式</a>佈局。
+							</p>
+
+							<h1 class="overview_static">Static 固定式</h1>
+
+							<p class="overview_static">
+								Static layouts are the traditional web: one design that sits in the center of the page and requires horizontal scrolling if the window is too small for it. M dot sites are the traditional answer to this, providing a wholly separate site for a lower resolution - and all the work of creating a separate site.<br>
+								固定式佈局是傳統的網絡：一個設計，它位於頁面的中心，需要水平滾動，如果窗口太小了。 M點的網站都是傳統的答案，提供較低的分辨率的全獨立的網站 - 並創建一個單獨的網站的所有工作。
+							</p>
+						</div>
+
+						<!-- Start: Single Block -->
+						<div class="block">
+							<div class="block_inner">
+								<img src="images/Conrad.jpg" />
+								<div class="block_content">
+									<h3>Conrad</h3>
+									<p class="meta">05 20, 2015</p>
+									<p class="summary">
+										簡介：
+									</p>
+									<p class="main">
+										目前是HPX G16讀書會小組小組長<br>
+										臉書「台灣電子書研究基地」管理員
+									</p>
+									<a href="http://www.facebook.com/vip.conrad" title="Facebook">Facebook</a>
+								</div>
+							</div>
+						</div>
+						<!-- End: Single Block -->
+
+						<!-- Start: Single Block -->
+						<div class="block">
+							<div class="block_inner">
+								<img src="images/photo.jpg" />
+								<div class="block_content">
+									<h3>Title</h3>
+									<p class="meta">Month dd, yyyy</p>
+									<p class="summary">
+										Summary summary summary summary summary summary
+									</p>
+									<p class="main">
+										Content content content content content content content content content content content content content content content content
+									</p>
+									<a href="#" title="Dummy placeholder link. This doesn't go anywhere.">Link</a>
+								</div>
+							</div>
+						</div>
+						<!-- End: Single Block -->
+
+						<!-- Start: Single Block -->
+						<div class="block">
+							<div class="block_inner">
+								<img src="images/photo.jpg" />
+								<div class="block_content">
+									<h3>Title</h3>
+									<p class="meta">Month dd, yyyy</p>
+									<p class="summary">
+										Summary summary summary summary summary summary
+									</p>
+									<p class="main">
+										Content content content content content content content content content content content content content content content content
+									</p>
+									<a href="#" title="Dummy placeholder link. This doesn't go anywhere.">Link</a>
+								</div>
+							</div>
+						</div>
+						<!-- End: Single Block -->
+
+						<!-- Start: Single Block -->
+						<div class="block">
+							<div class="block_inner">
+								<img src="images/photo.jpg" />
+								<div class="block_content">
+									<h3>Title</h3>
+									<p class="meta">Month dd, yyyy</p>
+									<p class="summary">
+										Summary summary summary summary summary summary
+									</p>
+									<p class="main">
+										Content content content content content content content content content content content content content content content content
+									</p>
+									<a href="#" title="Dummy placeholder link. This doesn't go anywhere.">Link</a>
+								</div>
+							</div>
+						</div>
+						<!-- End: Single Block -->
+
+						<!-- Start: Single Block -->
+						<div class="block">
+							<div class="block_inner">
+								<img src="images/photo.jpg" />
+								<div class="block_content">
+									<h3>Title</h3>
+									<p class="meta">Month dd, yyyy</p>
+									<p class="summary">
+										Summary summary summary summary summary summary
+									</p>
+									<p class="main">
+										Content content content content content content content content content content content content content content content content
+									</p>
+									<a href="#" title="Dummy placeholder link. This doesn't go anywhere.">Link</a>
+								</div>
+							</div>
+						</div>
+						<!-- End: Single Block -->
+					</div>
+				</article>
+
+				<aside>
+					<div id="aside_inner">
+						<!-- Start: Single Block -->
+						<div class="block">
+							<div class="block_inner">
+								<img src="images/photo.jpg" />
+								<div class="block_content">
+									<h3>Title</h3>
+									<p class="meta">Month dd, yyyy</p>
+									<p class="summary">
+										Summary summary summary summary summary summary
+									</p>
+									<p class="main">
+										Content content content content content content content content content content content content content content content content
+									</p>
+									<a href="#" title="Dummy placeholder link. This doesn't go anywhere.">Link</a>
+								</div>
+							</div>
+						</div>
+						<!-- End: Single Block -->
+
+						<!-- Start: Single Block -->
+						<div class="block">
+							<div class="block_inner">
+								<img src="images/photo.jpg" />
+								<div class="block_content">
+									<h3>Title</h3>
+									<p class="meta">Month dd, yyyy</p>
+									<p class="summary">
+										Summary summary summary summary summary summary
+									</p>
+									<p class="main">
+										Content content content content content content content content content content content content content content content content
+									</p>
+									<a href="#" title="Dummy placeholder link. This doesn't go anywhere.">Link</a>
+								</div>
+							</div>
+						</div>
+						<!-- End: Single Block -->
+
+						<!-- Start: Single Block -->
+						<div class="block">
+							<div class="block_inner">
+								<img src="images/photo.jpg" />
+								<div class="block_content">
+									<h3>Title</h3>
+									<p class="meta">Month dd, yyyy</p>
+									<p class="summary">
+										Summary summary summary summary summary summary
+									</p>
+									<p class="main">
+										Content content content content content content content content content content content content content content content content
+									</p>
+									<a href="#" title="Dummy placeholder link. This doesn't go anywhere.">Link</a>
+								</div>
+							</div>
+						</div>
+						<!-- End: Single Block -->
+
+						<!-- Start: Single Block -->
+						<div class="block">
+							<div class="block_inner">
+								<img src="images/photo.jpg" />
+								<div class="block_content">
+									<h3>Title</h3>
+									<p class="meta">Month dd, yyyy</p>
+									<p class="summary">
+										Summary summary summary summary summary summary
+									</p>
+									<p class="main">
+										Content content content content content content content content content content content content content content content content
+									</p>
+									<a href="#" title="Dummy placeholder link. This doesn't go anywhere.">Link</a>
+								</div>
+							</div>
+						</div>
+						<!-- End: Single Block -->
+
+						<!-- Start: Single Block -->
+						<div class="block">
+							<div class="block_inner">
+								<img src="images/photo.jpg" />
+								<div class="block_content">
+									<h3>Title</h3>
+									<p class="meta">Month dd, yyyy</p>
+									<p class="summary">
+										Summary summary summary summary summary summary
+									</p>
+									<p class="main">
+										Content content content content content content content content content content content content content content content content
+									</p>
+									<a href="#" title="Dummy placeholder link. This doesn't go anywhere.">Link</a>
+								</div>
+							</div>
+						</div>
+						<!-- End: Single Block -->
+					</div>
+				</aside>
+			</div>
+		</div>
+
+		<footer>
+			<div id="footer_inner">
+				<p>中文修改 by <a href="http://www.facebook.com/vip.conrad" title="Facebook">Conrad Peng</p>
+				<p>Built by <a href="http://www.digitaria.com/blogs/authors/nicholas-davison" title="Blog">Nicholas Davison</a> for <a href="http://www.digitaria.com" title="Digitaria's Company Website">Digitaria</a>
+				<p>&copy; Copyright <a href="http://www.digitaria.com" title="Digitaria's Company Website">Digitaria</a></p>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>
