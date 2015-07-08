@@ -1,0 +1,49 @@
+.nav a{
+	color: #5a5a5a;
+	font-size: 14px;
+	font-weight: bold;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-transform: uppercase;    
+}
+
+.nav li{
+	display: inline;
+}
+
+.jumbotron {
+	height: 500px;
+	background-image: url('http://goo.gl/04j7Nn'); 
+}
+
+.jumbotron .containar{
+	position: relative;
+	top: 100px;
+}
+
+.jumbotron h1{
+	color: #fff;
+	font-size: 48;
+	font-weight: bold;
+	font-family: shift,sans-serif;
+}
+
+.jumbotron p{
+	color: #fff;
+	font-size: 24;
+}
+
+.learn-more {
+	background-color: #f7f7f7; 
+}
+
+.learn-more h3{
+	font-family: shift,sans-serif;
+	font-weight: bold;
+}
+
+.learn-more a{
+	color: #00b0ff;
+}
